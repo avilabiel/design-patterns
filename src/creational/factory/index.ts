@@ -5,6 +5,8 @@ namespace Factory {
     privileges: String[] = ['page #1'];
 
     constructor(email: String) {
+      // you can put more code from regular user here
+      // ...
       this.email = email;
     }
   }
@@ -15,6 +17,8 @@ namespace Factory {
     privileges: String[] = ['page #1', 'page #2', 'page #3'];
 
     constructor(email: String) {
+      // you can put more code from admin user here
+      // ...
       this.email = email;
     }
   }

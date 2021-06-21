@@ -11,7 +11,7 @@ namespace AbstractFactory {
 
   class RegularUserCreator implements AbstractUserFactory {
     build(email: String): User {
-      // more logic from regular
+      // you can put more logic from regular user here
       // ...
       return new RegularUser(email);
     }
@@ -19,7 +19,7 @@ namespace AbstractFactory {
 
   class AdminUserCreator implements AbstractUserFactory {
     build(email: String): User {
-      // more logic from admin
+      // you can put more logic from admin user here
       // ...
       return new AdminUser(email);
     }
